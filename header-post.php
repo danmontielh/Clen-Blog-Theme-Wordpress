@@ -42,10 +42,6 @@
 
   <?php while(have_posts() ) : the_post(); ?>
 
-   
-
-    
-
 <header class="intro-header" style="background-image: url('<?php the_post_thumbnail_url(); ?> ')">
         <div class="container">
             <div class="row">
