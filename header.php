@@ -41,7 +41,7 @@
     </nav>
 
    
-
+<!-- Change your header image here. wp-content/themes/simple/img/ -->
    <header class="intro-header" style="background-image: url('<?php echo get_stylesheet_directory_uri();?>/img/home-bg.jpg')">
         <div class="container">
             <div class="row">
