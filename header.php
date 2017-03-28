@@ -40,21 +40,26 @@
         <!-- /.container -->
     </nav>
 
-   
+      <?php $descrip = get_bloginfo( 'description','display'); 
+?>
 <!-- Change your header image here. wp-content/themes/simple/img/ -->
    <header class="intro-header" style="background-image: url('<?php echo get_stylesheet_directory_uri();?>/img/home-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>Clean Blog</h1>
+                        <h1><?php bloginfo( 'name' ); ?></h1>
                         <hr class="small">
-                        <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                        <span class="subheading"><?php echo $descrip; ?></span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
+
+ 
+
+
 
 
 
