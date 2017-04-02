@@ -6,6 +6,12 @@ add_theme_support('post-thumbnails');
 add_image_size('pages-destacada', 1900,872,true);
 add_image_size('post-destacada', 1900,600,true);
 
+/* Custom */
+
+add_theme_support('custom-background', apply_filters('clean_custom', array('default-color' => 'ffffff',
+	'default-image' => '',
+	) ) );
+
 
 register_nav_menus( array(
 	'menu-1' => esc_html__( 'Primary', 'simple'),
