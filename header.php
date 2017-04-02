@@ -43,7 +43,7 @@
       <?php $descrip = get_bloginfo( 'description','display'); 
 ?>
 <!-- Change your header image here. wp-content/themes/simple/img/ -->
-   <header class="intro-header" style="background-image: url('<?php echo get_stylesheet_directory_uri();?>/img/home-bg.jpg')">
+   <header class="intro-header" style="background-image: url('<?php echo header_image(); ?>')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
